@@ -1,5 +1,5 @@
 class War {
-  constructor(vikingArmy) {
+  constructor() {
     this.vikingArmy = [];
     this.saxonArmy = [];
   }

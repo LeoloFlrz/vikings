@@ -28,7 +28,7 @@ describe("War", () => {
 
   describe("constructor function", () => {
     test("should receive 0 arguments", () => {
-      expect(War.length).toEqual(1);
+      expect(War.length).toEqual(0);
     });
 
     test("should assign an empty array to the vikingArmy property", () => {
