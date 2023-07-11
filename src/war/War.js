@@ -26,7 +26,7 @@ class War {
       return "A Saxon has died in combat";
     }
 
-    return "";
+    return '';
   }
 
   saxonAttack() {
