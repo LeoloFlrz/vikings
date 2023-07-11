@@ -7,6 +7,11 @@ class Viking extends Soldier {
     this.strength = strength;
     this.health = health;
   }
+  
+  attack() {
+    return this.strength
+  }
+
   receiveDamage(damage) {
     this.health -= damage;
     if (this.health <= 0) {

@@ -44,7 +44,15 @@ class War {
       return `${randomViking.name} has died in act of combat`;
     }
 
-    return "";
+    return `${randomViking.name} has received ${randomSaxon.strength} points of damage`;
+  }
+
+  showStatus() {
+    if ((this.saxonArmy = [""])) {
+      return "Vikings have won the war of the century!";
+    } else {
+      return "";
+    }
   }
 }
 
