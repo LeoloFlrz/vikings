@@ -48,7 +48,7 @@ class War {
   }
 
   showStatus() {
-    if ((this.saxonArmy = [""])) {
+    if ((this.saxonArmy = [''])) {
       return "Vikings have won the war of the century!";
     } else {
       return "";
